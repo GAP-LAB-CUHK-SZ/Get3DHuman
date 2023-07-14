@@ -5,7 +5,7 @@ Code repository for the paper:  <br />
 	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/title.png" alt="Editor" width="700">
 </div>
 
-Arxiv Preprint, 2022
+ICCV 2023
 [[paper](https://arxiv.org/abs/2302.01162)]   [[project page (coming soon)]()]
 
  
