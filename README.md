@@ -9,10 +9,10 @@ This is the official PyTorch implementation of [Get3DHuman]().
 
 ## TODO:triangular_flag_on_post:
 
-- [x] Preprocess datasets
-- [x] Pretrained weights
-- [x] Demo
-- [x] Training Code
+- [ ] Preprocess datasets
+- [ ] Pretrained weights
+- [ ] Demo
+- [ ] Training Code
 - [ ] Details about pre-processing your videos.
 - [ ] Combine with NeuralUDF (Comming Soon!)
 
