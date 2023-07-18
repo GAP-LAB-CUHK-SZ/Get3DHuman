@@ -44,4 +44,4 @@ Here are some great resources we benefit or utilize from:
 
 - [Stylegan-Human](https://github.com/stylegan-human/StyleGAN-Human)
 - [PIFu](https://github.com/shunsukesaito/PIFu)
-- [Stylegan2]([https://github.com/shunsukesaito/PIFu](https://github.com/NVlabs/stylegan2)https://github.com/NVlabs/stylegan2)
+- [Stylegan2](https://github.com/NVlabs/stylegan2)
