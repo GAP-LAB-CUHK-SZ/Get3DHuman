@@ -1,63 +1,44 @@
-# Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors. (Get3DHuman) <br />
+# Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors (ICCV2023)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
-Code repository for the paper:  <br />
-<div align="center">
-	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/title.png" alt="Editor" width="700">
-</div>
+## [Project Page](  ) | [Paper](https://arxiv.org/abs/2302.01162) | [Code](Coming soon)
 
-ICCV 2023
-[[paper](https://arxiv.org/abs/2302.01162)]   [[project page (coming soon)]()]
+This is the official PyTorch implementation of [Get3DHuman]().
+
+
+## TODO:triangular_flag_on_post:
+
+- [x] Preprocess datasets
+- [x] Pretrained weights
+- [x] Demo
+- [x] Training Code
+- [ ] Details about pre-processing your videos.
+- [ ] Combine with NeuralUDF (Comming Soon!)
+
+## Requirements
+
+Python 3
+Pytorch3d (0.4.0, some compatibility issues may occur in higher versions of pytorch3d)
+
+PyTorch<=1.10.2
+
+[pytorch-scatter==2.0.9](https://github.com/rusty1s/pytorch_scatter)
+
+Note: A GTX 3090 is recommended to run REC-MV, make sure enough GPU memory if using other cards.
+
+
 
  
-## Overview of our framework  <br />
-<div align="center">
-	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/pipeline_s_r.png" alt="Editor" width="800">
-<br />
-</div>
-
-
-## Depth-guided self-supervised learning <br />
-<div align="center">
-	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/self-sup.png" alt="Editor" width="800">
-<br />
-</div>
-
-## IoU of using different input <br />
-<div align="center">
-	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/IOU_.png" alt="Editor" width="800">
-<br />
-</div>
-
-
-## Comparisons among different PIFu variants <br />
-<div align="center">
-	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/intro_2_depth2pc_.png" alt="Editor" width="900">
-<br />
-</div>
-
-
-## Comparison with SOTA <br />
- <div align="center">
-  <img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/compare_back.png" alt="Editor" width="800"> 
-  <img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/sample.png" alt="Editor" width="800"> 
-<br />
-</div>
-  
-## Visual depth maps on real world images <br />
-<div align="center">
-	<img src="https://github.com/X-zhangyang/SelfPIFu--PIFu-for-the-Real-World/blob/main/Images/compare_dn_details.png" alt="Editor" width="1200">
-<br />
-</div>
-  
-## Citation  <br />
-If you  find the idea or code of this paper useful for your research, please consider citing us:
+## Citation 
+If you use Get3DHuman in your research, please consider the following BibTeX entry and give us a star🌟!
 
 ```bibtex
-@misc{xiong2022selfpifu,
-  author = {Xiong, Zhangyang and Du, Dong and Wu, Yushuang and Dong, Jingqi and Kang, Di and Bao, Linchao and Han, Xiaoguang},  
-  title = {PIFu for the Real World: A Self-supervised Framework to Reconstruct Dressed Human from Single-view Images},
-  publisher = {arXiv},
-  year = {2022},
+@inproceedings{xiong2023Get3dHuman,
+  author = {Zhangyang Xiong and Di Kang and Derong Jin and Weikai Chen and Linchao Bao and Shuguang Cui and Xiaoguang Han},  
+  title = {Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors},
+  booktitle={ICCV},
+  year = {2023},
 }
 
-```
+
