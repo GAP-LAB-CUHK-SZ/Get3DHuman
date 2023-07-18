@@ -14,7 +14,7 @@ This is the official PyTorch implementation of [Get3DHuman]().
 - [ ] Demo
 - [ ] Training Code
 - [ ] Details about pre-processing your videos.
-- [ ] Combine with NeuralUDF (Comming Soon!)
+- [ ] Combine with NeuralUDF (Coming Soon!)
 
 ## Requirements
 
@@ -30,7 +30,7 @@ Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory i
 If you use Get3DHuman in your research, please consider the following BibTeX entry and give us a star🌟!
 
 ```bibtex
-@inproceedings{xiong2023Get3dHuman,
+@inproceedings{xiong2023Get3DHuman,
   author = {Zhangyang Xiong and Di Kang and Derong Jin and Weikai Chen and Linchao Bao and Shuguang Cui and Xiaoguang Han},  
   title = {Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors},
   booktitle={ICCV},
