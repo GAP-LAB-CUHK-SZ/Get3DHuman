@@ -36,9 +36,9 @@ If you use Get3DHuman in your research, please consider the following BibTeX ent
   booktitle={ICCV},
   year = {2023},
 }
+```
 
-
-## Acknowledgements
+##  Acknowledgements
 
 Here are some great resources we benefit or utilize from:
 
