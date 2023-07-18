@@ -19,11 +19,7 @@ This is the official PyTorch implementation of [Get3DHuman]().
 ## Requirements
 
 Python 3
-Pytorch3d (0.4.0, some compatibility issues may occur in higher versions of pytorch3d)
 
-PyTorch<=1.10.2
-
-[pytorch-scatter==2.0.9](https://github.com/rusty1s/pytorch_scatter)
 
 Note: A GTX 3090 is recommended to run REC-MV, make sure enough GPU memory if using other cards.
 
@@ -42,3 +38,9 @@ If you use Get3DHuman in your research, please consider the following BibTeX ent
 }
 
 
+## Acknowledgements
+
+Here are some great resources we benefit or utilize from:
+
+- [Stylegan-Human](https://github.com/stylegan-human/StyleGAN-Human)
+- [PIFu](https://github.com/shunsukesaito/PIFu)
