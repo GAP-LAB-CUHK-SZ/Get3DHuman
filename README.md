@@ -21,7 +21,7 @@ This is the official PyTorch implementation of [Get3DHuman]().
 Python 3
 
 
-Note: A GTX 3090 is recommended to run REC-MV, make sure enough GPU memory if using other cards.
+Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
 
 
 
