@@ -27,7 +27,7 @@ Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory i
 
  
 ## Citation 
-If you use Get3DHuman in your research, please consider the following BibTeX entry and give us a star🌟!
+If you use Get3DHuman in your research, please consider the following BibTeX entry and give a star🌟!
 
 ```bibtex
 @inproceedings{xiong2023Get3DHuman,
