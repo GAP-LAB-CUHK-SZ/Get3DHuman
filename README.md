@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
-## [Project Page](https://x-zhangyang.github.io/2023_Get3DHuman/) | [Paper](https://arxiv.org/abs/2302.01162) | [Code](Coming soon)
+## [Project Page](https://x-zhangyang.github.io/2023_Get3DHuman/) | [Paper](https://arxiv.org/abs/2302.01162) | [Code(Coming soon)](https://github.com/X-zhangyang/Get3DHuman/edit/main/README.md)
 
 This is the official PyTorch implementation of [Get3DHuman]().
 
