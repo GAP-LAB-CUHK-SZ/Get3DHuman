@@ -13,8 +13,7 @@ This is the official PyTorch implementation of [Get3DHuman]().
 - [ ] Pretrained weights
 - [ ] Demo
 - [ ] Training Code
-- [ ] Details about pre-processing your videos.
-- [ ] Combine with NeuralUDF (Coming Soon!)
+
 
 ## Requirements
 
