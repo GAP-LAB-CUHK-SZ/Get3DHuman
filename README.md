@@ -40,7 +40,7 @@ Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory i
 ### Interpolation  <br />
 
 <div align="center">
-	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_inter_0.jpg"  width="800">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_inter_0.jpg"  width="600">
 <br />
 </div>
 
