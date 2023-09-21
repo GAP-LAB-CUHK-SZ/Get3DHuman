@@ -35,6 +35,16 @@ Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory i
 <br />
 </div>
 
+## Applications  <br />
+
+### Interpolation 
+
+<div align="center">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_inter_0.jpg"  width="800">
+<br />
+</div>
+
+
  
 ## Citation 
 If you use Get3DHuman in your research, please consider the following BibTeX entry and give a star🌟!
