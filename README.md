@@ -1,4 +1,4 @@
-# Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors (ICCV2023)
+# Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors (ICCV 2023)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
@@ -22,7 +22,18 @@ Python 3
 
 Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
 
+## Overview of our framework  <br />
+<div align="center">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/tree/main/paper_figures/pipeline.png" alt="Editor" width="800">
+<br />
+</div>
 
+## Multi-view images rendered by Blender.  <br />
+
+<div align="center">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/tree/main/paper_figures/sup_multi_view.jpg" alt="Editor" width="800">
+<br />
+</div>
 
  
 ## Citation 
