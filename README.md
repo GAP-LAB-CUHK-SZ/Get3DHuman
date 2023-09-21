@@ -31,19 +31,39 @@ Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory i
 ## Multi-view images rendered by Blender.  <br />
 
 <div align="center">
-	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_multi_view.jpg"  width="800">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_multi_view.jpg"  width="600">
 <br />
 </div>
 
-## Applications  <br />
+## Applications
 
-### Interpolation 
+### Interpolation  <br />
 
 <div align="center">
 	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_inter_0.jpg"  width="800">
 <br />
 </div>
 
+### Re-texturing  <br />
+
+<div align="center">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_recolor_all.jpg"  width="600">
+<br />
+</div>
+
+### Inversion   <br />
+
+<div align="center">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/inversion.png"  width="800">
+<br />
+</div>
+
+## Rendering methods   <br />
+
+<div align="center">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/render_method.png"  width="800">
+<br />
+</div>
 
  
 ## Citation 
