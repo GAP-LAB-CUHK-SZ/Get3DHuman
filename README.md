@@ -24,14 +24,14 @@ Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory i
 
 ## Overview of our framework  <br />
 <div align="center">
-	<img src="https://github.com/X-zhangyang/Get3DHuman/tree/main/paper_figures/pipeline.png"  width="600">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/pipeline.png"  width="800">
 <br />
 </div>
 
 ## Multi-view images rendered by Blender.  <br />
 
 <div align="center">
-	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_multi_view.jpg"  width="600">
+	<img src="https://github.com/X-zhangyang/Get3DHuman/blob/main/paper_figures/sup_multi_view.jpg"  width="800">
 <br />
 </div>
 
