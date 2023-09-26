@@ -9,9 +9,8 @@ This is the official PyTorch implementation of [Get3DHuman]().
 
 ## TODO:triangular_flag_on_post:
 
-- [ ] Inference code
+- [x] Inference code
 - [ ] Pretrained weights
-- [ ] Demo
 - [ ] Training Code
 
 
