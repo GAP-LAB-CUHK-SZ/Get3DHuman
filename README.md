@@ -9,15 +9,22 @@ This is the official PyTorch implementation of [Get3DHuman]().
 
 ## TODO:triangular_flag_on_post:
 
-- [ ] Preprocess datasets
+- [ ] Inference code
 - [ ] Pretrained weights
 - [ ] Demo
 - [ ] Training Code
 
 
-## Requirements
-
-Python 3
+## Requirements 
+torch==1.11.0
+torchvision == 0.12.0
+torchaudio == 0.11.0
+matplotlib
+scikit-learn
+scikit-image
+scipy
+opencv-python
+ninja
 
 
 Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
