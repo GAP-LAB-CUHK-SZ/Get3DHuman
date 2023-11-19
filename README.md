@@ -10,11 +10,31 @@ This is the official PyTorch implementation of [Get3DHuman]().
 ## TODO:triangular_flag_on_post:
 - [x] Synthetic data (with latent code)
 - [x] Inference code
-- [ ] Pretrained weights
+- [x] Pretrained weights
 - [ ] Training Code
+
+## Requirements:
+- Python 3
+- [PyTorch](https://pytorch.org/) tested on 1.8.0+cu111
+
+
+## Inference:
+1. Download the pretrained models from the following link and copy them into a same file. 
+[S&T pretrain model](https://drive.google.com/file/d/1jx7YOe0qZdEJQOa6JhHAIn_EgRL9cwbA/view?usp=sharing)
+[Refinement pretrain model](https://drive.google.com/file/d/1haOiBo6wQnltI_UdoSNE37LmjcmuvFO3/view?usp=sharing)
+
+2.Enter the code path and run:
+```
+pip install -r requirements.txt
+cd YOUR_CODE_PATH
+python inference.py --model_path YOUR_MODELS_PATH
+```
+The results will save in "./results"
 
 
 Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
+The released models is trained with [THuman2.0-Dataset](https://github.com/ytrock/THuman2.0-Dataset).
+
 
 ## Overview of our framework  <br />
 <div align="center">
