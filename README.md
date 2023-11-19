@@ -25,8 +25,8 @@ This is the official PyTorch implementation of [Get3DHuman]().
 
 2.Enter the code path and run:
 ```
-pip install -r requirements.txt
 cd YOUR_CODE_PATH
+pip install -r requirements.txt
 python inference.py --model_path YOUR_MODELS_PATH
 ```
 The results will save in "./results"
