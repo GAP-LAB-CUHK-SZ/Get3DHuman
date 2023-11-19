@@ -86,10 +86,12 @@ If you use Get3DHuman in your research, please consider the following BibTeX ent
 
 ```bibtex
 @inproceedings{xiong2023Get3DHuman,
-  author = {Zhangyang Xiong and Di Kang and Derong Jin and Weikai Chen and Linchao Bao and Shuguang Cui and Xiaoguang Han},  
-  title = {Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors},
-  booktitle={ICCV},
-  year = {2023},
+    author    = {Xiong, Zhangyang and Kang, Di and Jin, Derong and Chen, Weikai and Bao, Linchao and Cui, Shuguang and Han, Xiaoguang},
+    title     = {Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model Using Pixel-Aligned Reconstruction Priors},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {9287-9297}
 }
 ```
 
