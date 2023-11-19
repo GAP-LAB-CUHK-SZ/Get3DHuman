@@ -25,15 +25,14 @@ This is the official PyTorch implementation of [Get3DHuman]().
 
 2.Enter the code path and run:
 ```
-cd YOUR_CODE_PATH
+cd GET3DHUMAN_CODE_PATH
 pip install -r requirements.txt
-python inference.py --model_path YOUR_MODELS_PATH
+python inference.py --model_path YOUR_MODELS_PATH --sample_num 1  
 ```
 The results will be saved in "./results"
 
 
 Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
-The released models is trained with [THuman2.0-Dataset](https://github.com/ytrock/THuman2.0-Dataset).
 
 
 ## Overview of our framework  <br />
