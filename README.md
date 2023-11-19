@@ -21,8 +21,9 @@ This is the official PyTorch implementation of [Get3DHuman]().
 ## Inference:
 - Download pretrained models from the following link and copy them into a same file.
    
-[S&T pretrain model](https://drive.google.com/file/d/1jx7YOe0qZdEJQOa6JhHAIn_EgRL9cwbA/view?usp=sharing)
-[Refinement pretrain model](https://drive.google.com/file/d/1haOiBo6wQnltI_UdoSNE37LmjcmuvFO3/view?usp=sharing)
+[S&T pretrained model](https://drive.google.com/file/d/1jx7YOe0qZdEJQOa6JhHAIn_EgRL9cwbA/view?usp=sharing)
+
+[Re pretrained model](https://drive.google.com/file/d/1haOiBo6wQnltI_UdoSNE37LmjcmuvFO3/view?usp=sharing)
 
 - Enter the code path and run:
 ```
