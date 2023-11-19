@@ -29,7 +29,7 @@ cd YOUR_CODE_PATH
 pip install -r requirements.txt
 python inference.py --model_path YOUR_MODELS_PATH
 ```
-The results will save in "./results"
+The results will be saves in "./results"
 
 
 Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
