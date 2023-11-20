@@ -29,7 +29,7 @@ This is the official PyTorch implementation of [Get3DHuman]().
 ```
 cd GET3DHUMAN_CODE_PATH
 pip install -r requirements.txt
-python inference.py --model_path PRETRAINED_MODELS_PATH --sample_num 1  
+python inference.py --model_path PRETRAINED_MODELS_PATH --sample_num 1  --render_size 256
 ```
 The results will be saved in "./results"
 
