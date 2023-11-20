@@ -30,7 +30,7 @@ ticks = time.strftime("%Y%m%d_%H_%M", time.localtime())
 
 '''pretrain model path and save path '''
 save_path = args.out_dir
-pretrain_st_path = os.path.join(args.model_path, "Get3DHuman_shape_texture_v1.pth")
+pretrain_st_path = os.path.join(args.model_path, "Get3DHuman_shape_texture_v2.pth")
 pretrain_refine_path = os.path.join(args.model_path, "Get3DHuman_refinement_v1.pth")
 
 
@@ -38,7 +38,7 @@ pretrain_refine_path = os.path.join(args.model_path, "Get3DHuman_refinement_v1.p
 '''# define  parameters'''
 opt_all = load_opt()
 spatial_enc = DepthNormalizer(opt_all[0])
-res = 512
+res = args.render_size
 b_min = np.array([-128,  -28, -128])
 b_max = np.array([128, 228, 128])
 coords, mat = create_grid(res, res, res, b_min, b_max, transform=None)
