@@ -220,7 +220,7 @@ def test_avatar_infer(save_root_1, spatial_enc, random_S, random_C, epoch, save_
     
     save_obj_mesh_rgb('%s/color_%02d_%04d.obj'% (save_root_1, save_index, epoch),verts_pred,faces_pred, pre_rgb_train_[0]/255)
    
-def avatar_infer_shape(spatial_enc, cuda, calib_r, mat, shape_field, save_root, mlp):
+def avatar_infer_shape(spatial_enc, cuda, calib_r, mat, shape_field, save_root, mlp, coords):
     # model = I3DGAN_model
     # random_S, random_C = z_shape_r, z_shape_r
     # shape_field, texture_field = model.infer_avatar(random_S, 0, random_C, 0)
