@@ -113,7 +113,7 @@ for random_i in range(args.sample_num):
         shape_feature, fv_shape = Get3DHuman.forward_shape_(random_z_s, 0)
         
     with torch.no_grad():
-        verts_pred, faces_pred = avatar_infer_shape(spatial_enc, cuda, calib_r, mat, fv_shape, None, Get3DHuman.mlp_shape)
+        verts_pred, faces_pred = avatar_infer_shape(spatial_enc, cuda, calib_r, mat, fv_shape, None, Get3DHuman.mlp_shape, coords)
 
     for tex_i in range(1):
         with torch.no_grad():
