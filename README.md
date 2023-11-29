@@ -27,13 +27,14 @@ This is the official PyTorch implementation of [Get3DHuman]().
 [Re pretrained model](https://drive.google.com/file/d/1haOiBo6wQnltI_UdoSNE37LmjcmuvFO3/view?usp=sharing)
 
 
+
 - Enter the code path and run:
 ```
 cd GET3DHUMAN_CODE_PATH
 pip install -r requirements.txt
 python inference.py --model_path PRETRAINED_MODELS_PATH --sample_num 1  
 ```
-The results will be saved in "./results"
+The results will be saved in "./results". Like [sample](https://github.com/X-zhangyang/Get3DHuman/tree/main/Get3DHuman/results)
 
 
 Note: A GTX 3090 is recommended to run Get3DHuman, make sure enough GPU memory if using other cards.
