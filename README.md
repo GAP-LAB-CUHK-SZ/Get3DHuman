@@ -22,7 +22,7 @@ This is the official PyTorch implementation of [Get3DHuman]().
 - Download pretrained models from the following link and copy them into a same file.
    
 [S&T pretrained model](https://drive.google.com/file/d/1ib5A9JQDoGtNH4AQ6BLkdHD4lQa_6hA7/view?usp=sharing)
- or [S&T pretrained model](https://drive.google.com/file/d/1jx7YOe0qZdEJQOa6JhHAIn_EgRL9cwbA/view?usp=sharing).
+ or [S&T pretrained model_v2](https://drive.google.com/file/d/1jx7YOe0qZdEJQOa6JhHAIn_EgRL9cwbA/view?usp=sharing).
 
 [Re pretrained model](https://drive.google.com/file/d/1haOiBo6wQnltI_UdoSNE37LmjcmuvFO3/view?usp=sharing)
 
