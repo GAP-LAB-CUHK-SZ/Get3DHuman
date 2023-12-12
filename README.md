@@ -7,7 +7,7 @@
 This is the official PyTorch implementation of [Get3DHuman]().
 
 
-## TODO:triangular_flag_on_post:
+## TODO:
 - [x] Synthetic data (with latent code)
 - [x] Inference code
 - [x] Pretrained weights
